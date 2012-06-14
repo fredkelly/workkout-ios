@@ -1,9 +1,11 @@
+# Workkout for iOS
+
 ## Overview
 The iOS component of the workkout web app.
 
 ## Todo
 
-# Requests
+### Requests
 - GET
   - Asynchronous
   - Cache
@@ -12,22 +14,22 @@ The iOS component of the workkout web app.
   - Asynchronous
   - Cache
 
-# Throughout
+### Throughout
 - Update models.
 - Create JSON.
 
-# Plan List
+### Plan List
 
-# Exercise List
+### Exercise List
 - Ability to add new exercise.
 
-# Weight / Rep Picker
+### Weight / Rep Picker
 - Insert correct data into picker. 
     - Remenber users last weight/rep combo for each exercise.
 - Labels on picker.
 
-# Timer
+### Timer
 - Beautify Timer controller.
 
-# Summary Page
+### Summary Page
 - Implement Controller
