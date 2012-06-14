@@ -1,9 +1,7 @@
-### Workkout iOS
-
 ## Overview
 The iOS component of the workkout web app.
 
-## TODO
+## Todo
 
 # Requests
 - GET
