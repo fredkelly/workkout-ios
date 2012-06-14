@@ -1,5 +1,5 @@
 //
-//  WorkkoutSet.h
+//  WKSet.h
 //  Workkout
 //
 //  Created by Danyal Prout on 13/06/2012.
@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface WorkkoutSet : NSObject
+@interface WKSet : NSObject
 
 @end

@@ -1,5 +1,5 @@
 //
-//  WorkkoutPlan.h
+//  WKExercise.h
 //  Workkout
 //
 //  Created by Danyal Prout on 13/06/2012.
@@ -7,17 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "WorkkoutRequest.h"
+#import "WKRequest.h"
 
-@interface WorkkoutPlan : NSObject
+@interface WKExercise : NSObject
 
 @property (nonatomic, strong) NSNumber *id;
 @property (nonatomic, strong) NSString *name;
-@property (nonatomic, strong) NSDate *created_at;
 
-- (NSString *) description;
 - (id) initWithDict:(NSDictionary *)dictionary;
+- (NSString *) description;
 
-+ (NSArray *) getPlans;
++ (NSArray *) getExercises;
 
 @end

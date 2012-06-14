@@ -7,7 +7,7 @@
 //
 
 #import "PlanTableViewController.h"
-#import "WorkkoutPlan.h"
+#import "WKPlan.h"
 
 @interface PlanTableViewController ()
 
@@ -29,7 +29,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.plans = [WorkkoutPlan getPlans];
+    self.plans = [WKPlan getPlans];
     
 }
 
@@ -57,7 +57,7 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     
     // Configure the cell...
-    WorkkoutPlan *plan = [self.plans objectAtIndex:indexPath.row];
+    WKPlan *plan = [self.plans objectAtIndex:indexPath.row];
     
     cell.textLabel.text = plan.name;
     

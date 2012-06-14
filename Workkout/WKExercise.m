@@ -1,14 +1,14 @@
 //
-//  WorkkoutExercise.m
+//  WKExercise.m
 //  Workkout
 //
 //  Created by Danyal Prout on 13/06/2012.
 //  Copyright (c) 2012 University of Manchester. All rights reserved.
 //
 
-#import "WorkkoutExercise.h"
+#import "WKExercise.h"
 
-@implementation WorkkoutExercise
+@implementation WKExercise
 
 @synthesize id = _id;
 @synthesize name = _name;
@@ -30,12 +30,12 @@
 
 + (NSArray *) getExercises
 {
-    NSArray *json = [WorkkoutRequest getRequest:@"/exercises.json"];
+    NSArray *json = [WKRequest getRequest:@"/exercises.json"];
     
     NSMutableArray *exercises = [[NSMutableArray alloc] init];
     
     for (NSDictionary *d in json) {
-        [exercises addObject:[[WorkkoutExercise alloc] initWithDict:d]];
+        [exercises addObject:[[WKExercise alloc] initWithDict:d]];
     }
     
     return exercises;

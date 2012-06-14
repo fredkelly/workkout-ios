@@ -1,5 +1,5 @@
 //
-//  WorkkoutSession.h
+//  WKRequest.h
 //  Workkout
 //
 //  Created by Danyal Prout on 13/06/2012.
@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@interface WorkkoutSession : NSObject
+
+@interface WKRequest : NSObject
+
++ (NSArray *) getRequest:(NSString *)path;
 
 @end

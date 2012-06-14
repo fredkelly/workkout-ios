@@ -272,30 +272,9 @@
                     </connections>
                 </navigationController>
             </objects>
-            <point key="canvasLocation" x="130" y="-1331"/>
+            <point key="canvasLocation" x="144" y="-1325"/>
         </scene>
     </scenes>
-    <classes>
-        <class className="ExerciseTableViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ExerciseTableViewController.h"/>
-        </class>
-        <class className="PlanTableViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/PlanTableViewController.h"/>
-        </class>
-        <class className="TimerViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/TimerViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="timerDisplay" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="WeightRepetionsPickerControl" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/WeightRepetionsPickerControl.h"/>
-            <relationships>
-                <relationship kind="outlet" name="display" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="pickerView" candidateClass="UIPickerView"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

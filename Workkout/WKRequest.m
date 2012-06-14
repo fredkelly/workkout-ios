@@ -1,16 +1,16 @@
 //
-//  WorkkoutRequest.m
+//  WKRequest.m
 //  Workkout
 //
 //  Created by Danyal Prout on 13/06/2012.
 //  Copyright (c) 2012 University of Manchester. All rights reserved.
 //
 
-#import "WorkkoutRequest.h"
+#import "WKRequest.h"
 
 #define BASE_URL @"http://workkout.heroku.com"
 
-@implementation WorkkoutRequest
+@implementation WKRequest
 
 + (NSArray *) getRequest:(NSString *)path
 {

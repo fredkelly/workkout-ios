@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		2D5FD886158A0D8E00FB2ED5 /* ExerciseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5FD87B158A0D8E00FB2ED5 /* ExerciseTableViewController.m */; };
 		2D5FD887158A0D8E00FB2ED5 /* WorkkoutAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5FD87D158A0D8E00FB2ED5 /* WorkkoutAppDelegate.m */; };
-		2D5FD888158A0D8E00FB2ED5 /* WorkkoutExercise.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5FD87F158A0D8E00FB2ED5 /* WorkkoutExercise.m */; };
-		2D5FD889158A0D8E00FB2ED5 /* WorkkoutPlan.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5FD881158A0D8E00FB2ED5 /* WorkkoutPlan.m */; };
-		2D5FD88A158A0D8E00FB2ED5 /* WorkkoutSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5FD883158A0D8E00FB2ED5 /* WorkkoutSession.m */; };
-		2D5FD88B158A0D8E00FB2ED5 /* WorkkoutSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5FD885158A0D8E00FB2ED5 /* WorkkoutSet.m */; };
+		2D5FD888158A0D8E00FB2ED5 /* WKExercise.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5FD87F158A0D8E00FB2ED5 /* WKExercise.m */; };
+		2D5FD889158A0D8E00FB2ED5 /* WKPlan.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5FD881158A0D8E00FB2ED5 /* WKPlan.m */; };
+		2D5FD88A158A0D8E00FB2ED5 /* WKSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5FD883158A0D8E00FB2ED5 /* WKSession.m */; };
+		2D5FD88B158A0D8E00FB2ED5 /* WKSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5FD885158A0D8E00FB2ED5 /* WKSet.m */; };
 		2DC3F4A4158A428400D07009 /* WeightRepetitionsPickerControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC3F4A3158A428400D07009 /* WeightRepetitionsPickerControl.m */; };
 		2DC3F4AC158A469200D07009 /* TimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC3F4AB158A469200D07009 /* TimerViewController.m */; };
 		2DDBBAEB1587810800D6F8F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DDBBAEA1587810800D6F8F5 /* UIKit.framework */; };
@@ -26,7 +26,7 @@
 		2DDBBB0B1587810800D6F8F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DDBBAEC1587810800D6F8F5 /* Foundation.framework */; };
 		2DDBBB131587810800D6F8F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2DDBBB111587810800D6F8F5 /* InfoPlist.strings */; };
 		2DDBBB161587810800D6F8F5 /* WorkkoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DDBBB151587810800D6F8F5 /* WorkkoutTests.m */; };
-		2DDBBB211587812100D6F8F5 /* WorkkoutRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DDBBB201587812100D6F8F5 /* WorkkoutRequest.m */; };
+		2DDBBB211587812100D6F8F5 /* WKRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DDBBB201587812100D6F8F5 /* WKRequest.m */; };
 		2DDBBB24158781A600D6F8F5 /* PlanTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DDBBB23158781A600D6F8F5 /* PlanTableViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -45,14 +45,14 @@
 		2D5FD87B158A0D8E00FB2ED5 /* ExerciseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseTableViewController.m; sourceTree = "<group>"; };
 		2D5FD87C158A0D8E00FB2ED5 /* WorkkoutAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkkoutAppDelegate.h; sourceTree = "<group>"; };
 		2D5FD87D158A0D8E00FB2ED5 /* WorkkoutAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkkoutAppDelegate.m; sourceTree = "<group>"; };
-		2D5FD87E158A0D8E00FB2ED5 /* WorkkoutExercise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkkoutExercise.h; sourceTree = "<group>"; };
-		2D5FD87F158A0D8E00FB2ED5 /* WorkkoutExercise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkkoutExercise.m; sourceTree = "<group>"; };
-		2D5FD880158A0D8E00FB2ED5 /* WorkkoutPlan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkkoutPlan.h; sourceTree = "<group>"; };
-		2D5FD881158A0D8E00FB2ED5 /* WorkkoutPlan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkkoutPlan.m; sourceTree = "<group>"; };
-		2D5FD882158A0D8E00FB2ED5 /* WorkkoutSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkkoutSession.h; sourceTree = "<group>"; };
-		2D5FD883158A0D8E00FB2ED5 /* WorkkoutSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkkoutSession.m; sourceTree = "<group>"; };
-		2D5FD884158A0D8E00FB2ED5 /* WorkkoutSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkkoutSet.h; sourceTree = "<group>"; };
-		2D5FD885158A0D8E00FB2ED5 /* WorkkoutSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkkoutSet.m; sourceTree = "<group>"; };
+		2D5FD87E158A0D8E00FB2ED5 /* WKExercise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKExercise.h; sourceTree = "<group>"; };
+		2D5FD87F158A0D8E00FB2ED5 /* WKExercise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKExercise.m; sourceTree = "<group>"; };
+		2D5FD880158A0D8E00FB2ED5 /* WKPlan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKPlan.h; sourceTree = "<group>"; };
+		2D5FD881158A0D8E00FB2ED5 /* WKPlan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKPlan.m; sourceTree = "<group>"; };
+		2D5FD882158A0D8E00FB2ED5 /* WKSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKSession.h; sourceTree = "<group>"; };
+		2D5FD883158A0D8E00FB2ED5 /* WKSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKSession.m; sourceTree = "<group>"; };
+		2D5FD884158A0D8E00FB2ED5 /* WKSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKSet.h; sourceTree = "<group>"; };
+		2D5FD885158A0D8E00FB2ED5 /* WKSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKSet.m; sourceTree = "<group>"; };
 		2DC3F4A2158A428400D07009 /* WeightRepetitionsPickerControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeightRepetitionsPickerControl.h; sourceTree = "<group>"; };
 		2DC3F4A3158A428400D07009 /* WeightRepetitionsPickerControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeightRepetitionsPickerControl.m; sourceTree = "<group>"; };
 		2DC3F4AA158A469200D07009 /* TimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerViewController.h; sourceTree = "<group>"; };
@@ -72,8 +72,8 @@
 		2DDBBB121587810800D6F8F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2DDBBB141587810800D6F8F5 /* WorkkoutTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WorkkoutTests.h; sourceTree = "<group>"; };
 		2DDBBB151587810800D6F8F5 /* WorkkoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WorkkoutTests.m; sourceTree = "<group>"; };
-		2DDBBB1F1587812100D6F8F5 /* WorkkoutRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkkoutRequest.h; sourceTree = "<group>"; };
-		2DDBBB201587812100D6F8F5 /* WorkkoutRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkkoutRequest.m; sourceTree = "<group>"; };
+		2DDBBB1F1587812100D6F8F5 /* WKRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKRequest.h; sourceTree = "<group>"; };
+		2DDBBB201587812100D6F8F5 /* WKRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKRequest.m; sourceTree = "<group>"; };
 		2DDBBB22158781A600D6F8F5 /* PlanTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanTableViewController.h; sourceTree = "<group>"; };
 		2DDBBB23158781A600D6F8F5 /* PlanTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -102,6 +102,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D4ED59F158A75ED00722A3C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2D5FD87E158A0D8E00FB2ED5 /* WKExercise.h */,
+				2D5FD87F158A0D8E00FB2ED5 /* WKExercise.m */,
+				2D5FD880158A0D8E00FB2ED5 /* WKPlan.h */,
+				2D5FD881158A0D8E00FB2ED5 /* WKPlan.m */,
+				2D5FD882158A0D8E00FB2ED5 /* WKSession.h */,
+				2D5FD883158A0D8E00FB2ED5 /* WKSession.m */,
+				2D5FD884158A0D8E00FB2ED5 /* WKSet.h */,
+				2D5FD885158A0D8E00FB2ED5 /* WKSet.m */,
+				2DDBBB1F1587812100D6F8F5 /* WKRequest.h */,
+				2DDBBB201587812100D6F8F5 /* WKRequest.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		2D4ED5A1158A75FB00722A3C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2D5FD87A158A0D8E00FB2ED5 /* ExerciseTableViewController.h */,
+				2D5FD87B158A0D8E00FB2ED5 /* ExerciseTableViewController.m */,
+				2DC3F4A2158A428400D07009 /* WeightRepetitionsPickerControl.h */,
+				2DC3F4A3158A428400D07009 /* WeightRepetitionsPickerControl.m */,
+				2DC3F4AA158A469200D07009 /* TimerViewController.h */,
+				2DC3F4AB158A469200D07009 /* TimerViewController.m */,
+				2DDBBB22158781A600D6F8F5 /* PlanTableViewController.h */,
+				2DDBBB23158781A600D6F8F5 /* PlanTableViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		2DDBBADB1587810800D6F8F5 = {
 			isa = PBXGroup;
 			children = (
@@ -135,27 +167,11 @@
 		2DDBBAF01587810800D6F8F5 /* Workkout */ = {
 			isa = PBXGroup;
 			children = (
-				2D5FD87A158A0D8E00FB2ED5 /* ExerciseTableViewController.h */,
-				2D5FD87B158A0D8E00FB2ED5 /* ExerciseTableViewController.m */,
+				2D4ED5A1158A75FB00722A3C /* Controllers */,
 				2D5FD87C158A0D8E00FB2ED5 /* WorkkoutAppDelegate.h */,
 				2D5FD87D158A0D8E00FB2ED5 /* WorkkoutAppDelegate.m */,
-				2D5FD87E158A0D8E00FB2ED5 /* WorkkoutExercise.h */,
-				2D5FD87F158A0D8E00FB2ED5 /* WorkkoutExercise.m */,
-				2D5FD880158A0D8E00FB2ED5 /* WorkkoutPlan.h */,
-				2D5FD881158A0D8E00FB2ED5 /* WorkkoutPlan.m */,
-				2D5FD882158A0D8E00FB2ED5 /* WorkkoutSession.h */,
-				2D5FD883158A0D8E00FB2ED5 /* WorkkoutSession.m */,
-				2D5FD884158A0D8E00FB2ED5 /* WorkkoutSet.h */,
-				2D5FD885158A0D8E00FB2ED5 /* WorkkoutSet.m */,
-				2DDBBB1F1587812100D6F8F5 /* WorkkoutRequest.h */,
-				2DDBBB201587812100D6F8F5 /* WorkkoutRequest.m */,
+				2D4ED59F158A75ED00722A3C /* Models */,
 				2DDBBAFC1587810800D6F8F5 /* MainStoryboard.storyboard */,
-				2DC3F4A2158A428400D07009 /* WeightRepetitionsPickerControl.h */,
-				2DC3F4A3158A428400D07009 /* WeightRepetitionsPickerControl.m */,
-				2DC3F4AA158A469200D07009 /* TimerViewController.h */,
-				2DC3F4AB158A469200D07009 /* TimerViewController.m */,
-				2DDBBB22158781A600D6F8F5 /* PlanTableViewController.h */,
-				2DDBBB23158781A600D6F8F5 /* PlanTableViewController.m */,
 				2DDBBAF11587810800D6F8F5 /* Supporting Files */,
 			);
 			path = Workkout;
@@ -299,14 +315,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DDBBAF71587810800D6F8F5 /* main.m in Sources */,
-				2DDBBB211587812100D6F8F5 /* WorkkoutRequest.m in Sources */,
+				2DDBBB211587812100D6F8F5 /* WKRequest.m in Sources */,
 				2DDBBB24158781A600D6F8F5 /* PlanTableViewController.m in Sources */,
 				2D5FD886158A0D8E00FB2ED5 /* ExerciseTableViewController.m in Sources */,
 				2D5FD887158A0D8E00FB2ED5 /* WorkkoutAppDelegate.m in Sources */,
-				2D5FD888158A0D8E00FB2ED5 /* WorkkoutExercise.m in Sources */,
-				2D5FD889158A0D8E00FB2ED5 /* WorkkoutPlan.m in Sources */,
-				2D5FD88A158A0D8E00FB2ED5 /* WorkkoutSession.m in Sources */,
-				2D5FD88B158A0D8E00FB2ED5 /* WorkkoutSet.m in Sources */,
+				2D5FD888158A0D8E00FB2ED5 /* WKExercise.m in Sources */,
+				2D5FD889158A0D8E00FB2ED5 /* WKPlan.m in Sources */,
+				2D5FD88A158A0D8E00FB2ED5 /* WKSession.m in Sources */,
+				2D5FD88B158A0D8E00FB2ED5 /* WKSet.m in Sources */,
 				2DC3F4A4158A428400D07009 /* WeightRepetitionsPickerControl.m in Sources */,
 				2DC3F4AC158A469200D07009 /* TimerViewController.m in Sources */,
 			);

@@ -1,14 +1,14 @@
 //
-//  WorkkoutPlan.m
+//  WKPlan.m
 //  Workkout
 //
 //  Created by Danyal Prout on 13/06/2012.
 //  Copyright (c) 2012 University of Manchester. All rights reserved.
 //
 
-#import "WorkkoutPlan.h"
+#import "WKPlan.h"
 
-@implementation WorkkoutPlan
+@implementation WKPlan
 
 @synthesize id = _id;
 @synthesize name = _name;
@@ -32,12 +32,12 @@
 
 + (NSArray *) getPlans
 {
-    NSArray *json = [WorkkoutRequest getRequest:@"/plans.json"];
+    NSArray *json = [WKRequest getRequest:@"/plans.json"];
     
     NSMutableArray *plans = [[NSMutableArray alloc] init];
     
     for (NSDictionary *d in json) {
-        [plans addObject:[[WorkkoutPlan alloc] initWithDict:d]];
+        [plans addObject:[[WKPlan alloc] initWithDict:d]];
     }
     
     return plans;

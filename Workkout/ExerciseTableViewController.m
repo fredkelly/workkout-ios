@@ -7,7 +7,7 @@
 //
 
 #import "ExerciseTableViewController.h"
-#import "WorkkoutExercise.h"
+#import "WKExercise.h"
 
 @interface ExerciseTableViewController ()
 
@@ -21,7 +21,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.exercises = [WorkkoutExercise getExercises];
+    self.exercises = [WKExercise getExercises];
     self.filteredExercises = [NSMutableArray arrayWithCapacity:[self.exercises count]];
 
 }
@@ -57,7 +57,7 @@
 	/*
 	 If the requesting table view is the search display controller's table view, configure the cell using the filtered content, otherwise use the main list.
 	 */
-	WorkkoutExercise *exercise = nil;
+	WKExercise *exercise = nil;
 	if (tableView == self.searchDisplayController.searchResultsTableView) {
         NSLog(@"P.E");
         exercise = [self.filteredExercises objectAtIndex:indexPath.row];
@@ -83,7 +83,7 @@
     /*
      Search the main list for products whose type matches the scope (if selected) and whose name matches searchText; add items that match to the filtered array.
      */
-    for (WorkkoutExercise *exercise in self.exercises)
+    for (WKExercise *exercise in self.exercises)
     {
             NSComparisonResult result = [exercise.name compare:searchText options:(NSCaseInsensitiveSearch|NSDiacriticInsensitiveSearch) range:NSMakeRange(0, [searchText length])];
             if (result == NSOrderedSame)
