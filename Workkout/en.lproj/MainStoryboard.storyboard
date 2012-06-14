@@ -53,7 +53,7 @@
                     <navigationItem key="navigationItem" title="Plans" id="v91-DX-jcF"/>
                 </tableViewController>
             </objects>
-            <point key="canvasLocation" x="174" y="-1741"/>
+            <point key="canvasLocation" x="604" y="-1325"/>
         </scene>
         <!--Weight Repetions Picker Control - Weight / Repetitions-->
         <scene sceneID="Ka4-jY-U28">
@@ -91,7 +91,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Weight / Repetitions" id="hwT-an-FaF">
                         <barButtonItem key="backBarButtonItem" title="Exercises" id="CXN-wd-ZZX"/>
-                        <barButtonItem key="rightBarButtonItem" title="Item" id="qio-9P-kCr">
+                        <barButtonItem key="rightBarButtonItem" title="Time" id="qio-9P-kCr">
                             <connections>
                                 <segue destination="anG-3o-43x" kind="push" id="rEx-Gn-lRC"/>
                             </connections>
@@ -102,7 +102,7 @@
                     </connections>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="160" y="-1137"/>
+            <point key="canvasLocation" x="1546" y="-755"/>
         </scene>
         <!--Timer View Controller - Time-->
         <scene sceneID="0Um-IV-mHs">
@@ -168,13 +168,19 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Time" id="EDg-NX-svG"/>
+                    <navigationItem key="navigationItem" title="Time" id="EDg-NX-svG">
+                        <barButtonItem key="rightBarButtonItem" title="Next" id="hMv-ah-fhN">
+                            <connections>
+                                <segue destination="qtO-lc-u2K" kind="push" id="SQ2-w5-c7k"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="timerDisplay" destination="uAi-iC-HsE" id="L59-dC-XVY"/>
                     </connections>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="588" y="-1136"/>
+            <point key="canvasLocation" x="2048" y="-760"/>
         </scene>
         <!--Exercise Table View Controller - Exercises-->
         <scene sceneID="mku-eY-Znb">
@@ -212,7 +218,13 @@
                             <outlet property="delegate" destination="qtO-lc-u2K" id="6Cw-kR-mBc"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Exercises" id="yJO-f2-PSH"/>
+                    <navigationItem key="navigationItem" title="Exercises" id="yJO-f2-PSH">
+                        <barButtonItem key="rightBarButtonItem" title="Finish" id="Hhb-ZO-JdX">
+                            <connections>
+                                <segue destination="359-ww-4zH" kind="push" id="5CD-Pp-n9h"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="searchDisplayController" destination="ByA-Dt-Ttf" id="yEW-MX-GZQ"/>
                     </connections>
@@ -227,7 +239,22 @@
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="593" y="-1735"/>
+            <point key="canvasLocation" x="1069" y="-1325"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="IsT-vX-fia">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="95g-o6-LbV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="359-ww-4zH" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vEY-pN-xMO">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="olm-cK-wsA"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1553" y="-1574"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="tiw-of-7OI">
@@ -245,7 +272,7 @@
                     </connections>
                 </navigationController>
             </objects>
-            <point key="canvasLocation" x="-336" y="-1925"/>
+            <point key="canvasLocation" x="130" y="-1331"/>
         </scene>
     </scenes>
     <classes>
@@ -274,4 +301,7 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="pl1-7p-a1d"/>
+    </inferredMetricsTieBreakers>
 </document>
