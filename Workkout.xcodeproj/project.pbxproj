@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D5FD886158A0D8E00FB2ED5 /* ExerciseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5FD87B158A0D8E00FB2ED5 /* ExerciseTableViewController.m */; };
+		2D5FD887158A0D8E00FB2ED5 /* WorkkoutAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5FD87D158A0D8E00FB2ED5 /* WorkkoutAppDelegate.m */; };
+		2D5FD888158A0D8E00FB2ED5 /* WorkkoutExercise.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5FD87F158A0D8E00FB2ED5 /* WorkkoutExercise.m */; };
+		2D5FD889158A0D8E00FB2ED5 /* WorkkoutPlan.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5FD881158A0D8E00FB2ED5 /* WorkkoutPlan.m */; };
+		2D5FD88A158A0D8E00FB2ED5 /* WorkkoutSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5FD883158A0D8E00FB2ED5 /* WorkkoutSession.m */; };
+		2D5FD88B158A0D8E00FB2ED5 /* WorkkoutSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5FD885158A0D8E00FB2ED5 /* WorkkoutSet.m */; };
+		2D5FD89B158A225A00FB2ED5 /* WeightRepetitionsPickerControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5FD89A158A225A00FB2ED5 /* WeightRepetitionsPickerControl.m */; };
+		2DDBBAEB1587810800D6F8F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DDBBAEA1587810800D6F8F5 /* UIKit.framework */; };
+		2DDBBAED1587810800D6F8F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DDBBAEC1587810800D6F8F5 /* Foundation.framework */; };
+		2DDBBAEF1587810800D6F8F5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DDBBAEE1587810800D6F8F5 /* CoreGraphics.framework */; };
+		2DDBBAF51587810800D6F8F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2DDBBAF31587810800D6F8F5 /* InfoPlist.strings */; };
+		2DDBBAF71587810800D6F8F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DDBBAF61587810800D6F8F5 /* main.m */; };
+		2DDBBAFE1587810800D6F8F5 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DDBBAFC1587810800D6F8F5 /* MainStoryboard.storyboard */; };
+		2DDBBB091587810800D6F8F5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DDBBB081587810800D6F8F5 /* SenTestingKit.framework */; };
+		2DDBBB0A1587810800D6F8F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DDBBAEA1587810800D6F8F5 /* UIKit.framework */; };
+		2DDBBB0B1587810800D6F8F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DDBBAEC1587810800D6F8F5 /* Foundation.framework */; };
+		2DDBBB131587810800D6F8F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2DDBBB111587810800D6F8F5 /* InfoPlist.strings */; };
+		2DDBBB161587810800D6F8F5 /* WorkkoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DDBBB151587810800D6F8F5 /* WorkkoutTests.m */; };
+		2DDBBB211587812100D6F8F5 /* WorkkoutRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DDBBB201587812100D6F8F5 /* WorkkoutRequest.m */; };
+		2DDBBB24158781A600D6F8F5 /* PlanTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DDBBB23158781A600D6F8F5 /* PlanTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DDBBB0C1587810800D6F8F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DDBBADD1587810800D6F8F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DDBBAE51587810800D6F8F5;
+			remoteInfo = Workkout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D5FD87A158A0D8E00FB2ED5 /* ExerciseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseTableViewController.h; sourceTree = "<group>"; };
+		2D5FD87B158A0D8E00FB2ED5 /* ExerciseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseTableViewController.m; sourceTree = "<group>"; };
+		2D5FD87C158A0D8E00FB2ED5 /* WorkkoutAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkkoutAppDelegate.h; sourceTree = "<group>"; };
+		2D5FD87D158A0D8E00FB2ED5 /* WorkkoutAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkkoutAppDelegate.m; sourceTree = "<group>"; };
+		2D5FD87E158A0D8E00FB2ED5 /* WorkkoutExercise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkkoutExercise.h; sourceTree = "<group>"; };
+		2D5FD87F158A0D8E00FB2ED5 /* WorkkoutExercise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkkoutExercise.m; sourceTree = "<group>"; };
+		2D5FD880158A0D8E00FB2ED5 /* WorkkoutPlan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkkoutPlan.h; sourceTree = "<group>"; };
+		2D5FD881158A0D8E00FB2ED5 /* WorkkoutPlan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkkoutPlan.m; sourceTree = "<group>"; };
+		2D5FD882158A0D8E00FB2ED5 /* WorkkoutSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkkoutSession.h; sourceTree = "<group>"; };
+		2D5FD883158A0D8E00FB2ED5 /* WorkkoutSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkkoutSession.m; sourceTree = "<group>"; };
+		2D5FD884158A0D8E00FB2ED5 /* WorkkoutSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkkoutSet.h; sourceTree = "<group>"; };
+		2D5FD885158A0D8E00FB2ED5 /* WorkkoutSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkkoutSet.m; sourceTree = "<group>"; };
+		2D5FD899158A225A00FB2ED5 /* WeightRepetitionsPickerControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WeightRepetitionsPickerControl.h; path = ../WeightRepetitionsPickerControl.h; sourceTree = "<group>"; };
+		2D5FD89A158A225A00FB2ED5 /* WeightRepetitionsPickerControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WeightRepetitionsPickerControl.m; path = ../WeightRepetitionsPickerControl.m; sourceTree = "<group>"; };
+		2DDBBAE61587810800D6F8F5 /* Workkout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Workkout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DDBBAEA1587810800D6F8F5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2DDBBAEC1587810800D6F8F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2DDBBAEE1587810800D6F8F5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2DDBBAF21587810800D6F8F5 /* Workkout-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Workkout-Info.plist"; sourceTree = "<group>"; };
+		2DDBBAF41587810800D6F8F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2DDBBAF61587810800D6F8F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2DDBBAF81587810800D6F8F5 /* Workkout-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Workkout-Prefix.pch"; sourceTree = "<group>"; };
+		2DDBBAFD1587810800D6F8F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		2DDBBB071587810800D6F8F5 /* WorkkoutTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkkoutTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DDBBB081587810800D6F8F5 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		2DDBBB101587810800D6F8F5 /* WorkkoutTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WorkkoutTests-Info.plist"; sourceTree = "<group>"; };
+		2DDBBB121587810800D6F8F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2DDBBB141587810800D6F8F5 /* WorkkoutTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WorkkoutTests.h; sourceTree = "<group>"; };
+		2DDBBB151587810800D6F8F5 /* WorkkoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WorkkoutTests.m; sourceTree = "<group>"; };
+		2DDBBB1F1587812100D6F8F5 /* WorkkoutRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkkoutRequest.h; sourceTree = "<group>"; };
+		2DDBBB201587812100D6F8F5 /* WorkkoutRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkkoutRequest.m; sourceTree = "<group>"; };
+		2DDBBB22158781A600D6F8F5 /* PlanTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanTableViewController.h; sourceTree = "<group>"; };
+		2DDBBB23158781A600D6F8F5 /* PlanTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DDBBAE31587810800D6F8F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DDBBAEB1587810800D6F8F5 /* UIKit.framework in Frameworks */,
+				2DDBBAED1587810800D6F8F5 /* Foundation.framework in Frameworks */,
+				2DDBBAEF1587810800D6F8F5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DDBBB031587810800D6F8F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DDBBB091587810800D6F8F5 /* SenTestingKit.framework in Frameworks */,
+				2DDBBB0A1587810800D6F8F5 /* UIKit.framework in Frameworks */,
+				2DDBBB0B1587810800D6F8F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DDBBADB1587810800D6F8F5 = {
+			isa = PBXGroup;
+			children = (
+				2DDBBAF01587810800D6F8F5 /* Workkout */,
+				2DDBBB0E1587810800D6F8F5 /* WorkkoutTests */,
+				2DDBBAE91587810800D6F8F5 /* Frameworks */,
+				2DDBBAE71587810800D6F8F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2DDBBAE71587810800D6F8F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DDBBAE61587810800D6F8F5 /* Workkout.app */,
+				2DDBBB071587810800D6F8F5 /* WorkkoutTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DDBBAE91587810800D6F8F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DDBBAEA1587810800D6F8F5 /* UIKit.framework */,
+				2DDBBAEC1587810800D6F8F5 /* Foundation.framework */,
+				2DDBBAEE1587810800D6F8F5 /* CoreGraphics.framework */,
+				2DDBBB081587810800D6F8F5 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2DDBBAF01587810800D6F8F5 /* Workkout */ = {
+			isa = PBXGroup;
+			children = (
+				2D5FD899158A225A00FB2ED5 /* WeightRepetitionsPickerControl.h */,
+				2D5FD89A158A225A00FB2ED5 /* WeightRepetitionsPickerControl.m */,
+				2D5FD87A158A0D8E00FB2ED5 /* ExerciseTableViewController.h */,
+				2D5FD87B158A0D8E00FB2ED5 /* ExerciseTableViewController.m */,
+				2D5FD87C158A0D8E00FB2ED5 /* WorkkoutAppDelegate.h */,
+				2D5FD87D158A0D8E00FB2ED5 /* WorkkoutAppDelegate.m */,
+				2D5FD87E158A0D8E00FB2ED5 /* WorkkoutExercise.h */,
+				2D5FD87F158A0D8E00FB2ED5 /* WorkkoutExercise.m */,
+				2D5FD880158A0D8E00FB2ED5 /* WorkkoutPlan.h */,
+				2D5FD881158A0D8E00FB2ED5 /* WorkkoutPlan.m */,
+				2D5FD882158A0D8E00FB2ED5 /* WorkkoutSession.h */,
+				2D5FD883158A0D8E00FB2ED5 /* WorkkoutSession.m */,
+				2D5FD884158A0D8E00FB2ED5 /* WorkkoutSet.h */,
+				2D5FD885158A0D8E00FB2ED5 /* WorkkoutSet.m */,
+				2DDBBB1F1587812100D6F8F5 /* WorkkoutRequest.h */,
+				2DDBBB201587812100D6F8F5 /* WorkkoutRequest.m */,
+				2DDBBAFC1587810800D6F8F5 /* MainStoryboard.storyboard */,
+				2DDBBB22158781A600D6F8F5 /* PlanTableViewController.h */,
+				2DDBBB23158781A600D6F8F5 /* PlanTableViewController.m */,
+				2DDBBAF11587810800D6F8F5 /* Supporting Files */,
+			);
+			path = Workkout;
+			sourceTree = "<group>";
+		};
+		2DDBBAF11587810800D6F8F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DDBBAF21587810800D6F8F5 /* Workkout-Info.plist */,
+				2DDBBAF31587810800D6F8F5 /* InfoPlist.strings */,
+				2DDBBAF61587810800D6F8F5 /* main.m */,
+				2DDBBAF81587810800D6F8F5 /* Workkout-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2DDBBB0E1587810800D6F8F5 /* WorkkoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				2DDBBB141587810800D6F8F5 /* WorkkoutTests.h */,
+				2DDBBB151587810800D6F8F5 /* WorkkoutTests.m */,
+				2DDBBB0F1587810800D6F8F5 /* Supporting Files */,
+			);
+			path = WorkkoutTests;
+			sourceTree = "<group>";
+		};
+		2DDBBB0F1587810800D6F8F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DDBBB101587810800D6F8F5 /* WorkkoutTests-Info.plist */,
+				2DDBBB111587810800D6F8F5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DDBBAE51587810800D6F8F5 /* Workkout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DDBBB191587810800D6F8F5 /* Build configuration list for PBXNativeTarget "Workkout" */;
+			buildPhases = (
+				2DDBBAE21587810800D6F8F5 /* Sources */,
+				2DDBBAE31587810800D6F8F5 /* Frameworks */,
+				2DDBBAE41587810800D6F8F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Workkout;
+			productName = Workkout;
+			productReference = 2DDBBAE61587810800D6F8F5 /* Workkout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2DDBBB061587810800D6F8F5 /* WorkkoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DDBBB1C1587810800D6F8F5 /* Build configuration list for PBXNativeTarget "WorkkoutTests" */;
+			buildPhases = (
+				2DDBBB021587810800D6F8F5 /* Sources */,
+				2DDBBB031587810800D6F8F5 /* Frameworks */,
+				2DDBBB041587810800D6F8F5 /* Resources */,
+				2DDBBB051587810800D6F8F5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DDBBB0D1587810800D6F8F5 /* PBXTargetDependency */,
+			);
+			name = WorkkoutTests;
+			productName = WorkkoutTests;
+			productReference = 2DDBBB071587810800D6F8F5 /* WorkkoutTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DDBBADD1587810800D6F8F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "University of Manchester";
+			};
+			buildConfigurationList = 2DDBBAE01587810800D6F8F5 /* Build configuration list for PBXProject "Workkout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2DDBBADB1587810800D6F8F5;
+			productRefGroup = 2DDBBAE71587810800D6F8F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DDBBAE51587810800D6F8F5 /* Workkout */,
+				2DDBBB061587810800D6F8F5 /* WorkkoutTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DDBBAE41587810800D6F8F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DDBBAF51587810800D6F8F5 /* InfoPlist.strings in Resources */,
+				2DDBBAFE1587810800D6F8F5 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DDBBB041587810800D6F8F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DDBBB131587810800D6F8F5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DDBBB051587810800D6F8F5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DDBBAE21587810800D6F8F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DDBBAF71587810800D6F8F5 /* main.m in Sources */,
+				2DDBBB211587812100D6F8F5 /* WorkkoutRequest.m in Sources */,
+				2DDBBB24158781A600D6F8F5 /* PlanTableViewController.m in Sources */,
+				2D5FD886158A0D8E00FB2ED5 /* ExerciseTableViewController.m in Sources */,
+				2D5FD887158A0D8E00FB2ED5 /* WorkkoutAppDelegate.m in Sources */,
+				2D5FD888158A0D8E00FB2ED5 /* WorkkoutExercise.m in Sources */,
+				2D5FD889158A0D8E00FB2ED5 /* WorkkoutPlan.m in Sources */,
+				2D5FD88A158A0D8E00FB2ED5 /* WorkkoutSession.m in Sources */,
+				2D5FD88B158A0D8E00FB2ED5 /* WorkkoutSet.m in Sources */,
+				2D5FD89B158A225A00FB2ED5 /* WeightRepetitionsPickerControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DDBBB021587810800D6F8F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DDBBB161587810800D6F8F5 /* WorkkoutTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DDBBB0D1587810800D6F8F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DDBBAE51587810800D6F8F5 /* Workkout */;
+			targetProxy = 2DDBBB0C1587810800D6F8F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2DDBBAF31587810800D6F8F5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DDBBAF41587810800D6F8F5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2DDBBAFC1587810800D6F8F5 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DDBBAFD1587810800D6F8F5 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		2DDBBB111587810800D6F8F5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DDBBB121587810800D6F8F5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DDBBB171587810800D6F8F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2DDBBB181587810800D6F8F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DDBBB1A1587810800D6F8F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Workkout/Workkout-Prefix.pch";
+				INFOPLIST_FILE = "Workkout/Workkout-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2DDBBB1B1587810800D6F8F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Workkout/Workkout-Prefix.pch";
+				INFOPLIST_FILE = "Workkout/Workkout-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2DDBBB1D1587810800D6F8F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Workkout.app/Workkout";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Workkout/Workkout-Prefix.pch";
+				INFOPLIST_FILE = "WorkkoutTests/WorkkoutTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		2DDBBB1E1587810800D6F8F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Workkout.app/Workkout";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Workkout/Workkout-Prefix.pch";
+				INFOPLIST_FILE = "WorkkoutTests/WorkkoutTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DDBBAE01587810800D6F8F5 /* Build configuration list for PBXProject "Workkout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DDBBB171587810800D6F8F5 /* Debug */,
+				2DDBBB181587810800D6F8F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DDBBB191587810800D6F8F5 /* Build configuration list for PBXNativeTarget "Workkout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DDBBB1A1587810800D6F8F5 /* Debug */,
+				2DDBBB1B1587810800D6F8F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DDBBB1C1587810800D6F8F5 /* Build configuration list for PBXNativeTarget "WorkkoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DDBBB1D1587810800D6F8F5 /* Debug */,
+				2DDBBB1E1587810800D6F8F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DDBBADD1587810800D6F8F5 /* Project object */;
+}
