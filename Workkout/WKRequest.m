@@ -15,7 +15,12 @@
 + (NSArray *) getRequest:(NSString *)path
 {
 
-    NSURL *url = [[NSURL alloc] initWithString:[BASE_URL stringByAppendingPathComponent: path]];
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    
+    NSString *pathWithToken = [[path stringByAppendingString:@"?access_token="]stringByAppendingString:[defaults objectForKey:@"FBAccessTokenKey"]];
+    NSURL *url = [[NSURL alloc] initWithString:[BASE_URL stringByAppendingPathComponent: pathWithToken]];
+    NSLog(@"%@", url);
+    
     
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     

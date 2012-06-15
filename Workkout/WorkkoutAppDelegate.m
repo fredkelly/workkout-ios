@@ -11,11 +11,38 @@
 @implementation WorkkoutAppDelegate
 
 @synthesize window = _window;
+@synthesize facebook = _facebook;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    self.facebook = [[Facebook alloc] initWithAppId:@"314324148655895" andDelegate:self];
+    
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    if ([defaults objectForKey:@"FBAccessTokenKey"] && [defaults objectForKey:@"FBExpirationDateKey"]) {
+        self.facebook.accessToken = [defaults objectForKey:@"FBAccessTokenKey"];
+        self.facebook.expirationDate = [defaults objectForKey:@"FBExpirationDateKey"];
+    }
+    
+    if (![self.facebook isSessionValid]) {
+        [self.facebook authorize:nil];
+    }
     return YES;
+}
+
+
+// For iOS 4.2+ support
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
+{
+    return [self.facebook handleOpenURL:url]; 
+}
+
+- (void)fbDidLogin {
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    [defaults setObject:[self.facebook accessToken] forKey:@"FBAccessTokenKey"];
+    [defaults setObject:[self.facebook expirationDate] forKey:@"FBExpirationDateKey"];
+    [defaults synchronize];
+    
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application
